@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{0bc27fa8-afac-4a02-8354-f8ac7e3056e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="High Level Interface">
+      <UniqueIdentifier>{ef2cc17f-dc8c-4713-acb5-11a43c435929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{84407bf0-b431-49e7-b0cd-167e818415ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Math">
+      <UniqueIdentifier>{8f5edaa5-ad5d-423a-bc41-5e68a8621da5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{767d4264-e56a-430c-8c2d-f49d85c35b59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Time">
+      <UniqueIdentifier>{d5cea299-11de-49f8-9c0c-c110056dd303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{cd4b9eba-c6cf-46a9-a814-89a620c95213}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="yaApplication.cpp">
+      <Filter>High Level Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="yaGraphicDevice_DX11.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="yaMath.cpp">
+      <Filter>Common\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="yaTime.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="yaInput.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="yaEntity.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="yaResource.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="yaResources.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CommonInclude.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="yaApplication.h">
+      <Filter>High Level Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="yaGraphicDevice_DX11.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="yaMath.h">
+      <Filter>Common\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="yaTime.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="yaInput.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="yaEntity.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="yaResource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="yaResources.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="yaGraphics.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="yaMath.inl">
+      <Filter>Common\Math</Filter>
+    </None>
+  </ItemGroup>
+</Project>
